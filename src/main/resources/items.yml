@@ -1,0 +1,39 @@
+# TYPE:
+# COMMAND - wykonuje sie komenda
+# ITEM - otrzymujesz item
+items:
+  1:
+    name: "&cJedzonko ITEM"
+    price: 1.44
+    type: ITEM
+    slot: 13
+    commands: []
+    item:
+      material: BREAD
+      amount: 1
+    gui-item:
+      glow: true
+      material: BREAD
+      displayname: "&cChlebek"
+      lore:
+        - "&7 "
+        - "&7Cena: {price}"
+        - "&7 "
+        - "&eKliknij aby kupic!"
+  2:
+    name: "&cJedzonko COMMAND"
+    price: 0.13
+    type: COMMAND
+    slot: 15
+    commands:
+      - give {player} BREAD 2
+    gui-item:
+      glow: false
+      material: BREAD
+      amount: 2
+      displayname: "&cChlebek &4EXTRA"
+      lore:
+        - "&7 "
+        - "&7Cena: {price}"
+        - "&7 "
+        - "&eKliknij aby kupic!"

@@ -1,0 +1,10 @@
+name: getExtraPoints
+version: '${project.version}'
+main: me.gethertv.getextrapoints.GetExtraPoints
+softdepend: [PlaceholderAPI]
+api-version: 1.16
+commands:
+  eshop:
+    aliases: [ es ]
+  getextrapoints:
+    aliases: [extrapoints, epoints, epoint, ep]
